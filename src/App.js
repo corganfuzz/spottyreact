@@ -22,7 +22,7 @@ class App extends Component {
     //new way ES6 with template sttrings (back ticks)
     const FETCH_URL = `${BASE_URL}q=${this.state.query}&type=artist&limit=1`;
 
-    const accessToken ='BQCZYzsKW1jy42o8k02rAaZjuDC4RmuetmeKOl3Ho05-G4frjBunUWLE3O7Rm1iAu0VSOnAWsyO42CJnLnNWYE-8OjCXTEQuAJw9fzFbowz9WtZi2DVthrMBmUZNG4VcF0n4SOr84nVX7kk'
+    const accessToken ='BQBNStPjq2X5EalJgSBCm8lp0_FG29xfepyN1hFCsJva8iFs8_1neNpf9LmUEZc4shSr4zRmPMJj0nVFNdJBtN-YDJZeLfn860lVROg8vqrlPAxCPQqY1j3DtYA_vD11LycrD3X-4cDE2zaeWhEU1m7eSQaUru6plZk&refresh_token=AQAJ2SE1TVrUecLSvKBIelHTsDTrw-X4m2162g0Q-v58fMYA3KURlM3eUWjSR9qUqdL5iU7pJaykR0yOz_XSXmyF93OjVtLb2z3XGOOv2JSju9LCnmxMg7j1UG_BeSYcT6I'
     console.log('FETCH_URL', FETCH_URL);
 
     const myOptions = {
