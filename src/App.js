@@ -66,14 +66,22 @@ class App extends Component {
 
           <Button onClick={() => this.search()}><Icon right>search</Icon>Search</Button>
 
+{
+  this.state.artist !== null
+      ?
+<div>
+  <Profile
+      artist={this.state.artist}
+  />
 
-          <Profile
-              artist={this.state.artist}
-          />
+    <div className="Gallery">
+      Gallery
+    </div>
+</div>
 
-        <div className="Gallery">
-          Gallery
-        </div>
+      : <div></div>
+}
+
       </div>
     );
   }
